@@ -15,7 +15,7 @@
   ],
   "homepage": "http://github.com/gorriecoe/silverstripe-editkey",
   "require": {
-    "silverstripe/framework": "^4.0"
+    "silverstripe/cms": "^4.0"
   },
   "extra": {
     "installer-name": "editkey",
