@@ -1,0 +1,6 @@
+---
+Name: editkey
+---
+SilverStripe\CMS\Model\SiteTree:
+  extensions:
+    - gorriecoe\EditKey\EditKey
