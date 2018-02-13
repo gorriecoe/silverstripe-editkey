@@ -13,7 +13,7 @@
     "silverstripe",
     "edit"
   ],
-  "homepage": "http://github.com/gorriecoe/silverstripe-embed",
+  "homepage": "http://github.com/gorriecoe/silverstripe-editkey",
   "require": {
     "silverstripe/framework": "^4.0"
   },
