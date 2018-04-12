@@ -1,6 +1,6 @@
 {
   "name": "gorriecoe/silverstripe-editkey",
-  "description": "Enables the use of the key press (ctrl+e or alt+e) to access cms page edit",
+  "description": "Enables the use of the key press ctrl+e or alt+e to access cms page edit.",
   "type": "silverstripe-vendormodule",
   "license": "BSD-3-Clause",
   "authors": [

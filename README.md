@@ -1,5 +1,5 @@
 # Silverstripe edit key
-Enables the use of the key press (ctrl+e or alt+e) to access cms page edit
+Enables the use of the key press `ctrl+e` or `alt+e` to access cms page edit.
 
 ## Installation
 Composer is the recommended way of installing SilverStripe modules.

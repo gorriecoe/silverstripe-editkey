@@ -8,8 +8,7 @@ use SilverStripe\ORM\DataExtension;
 /**
  * EditKey
  *
- * @package silverstripe
- * @subpackage mysite
+ * @package silverstripe-link
  */
 class EditKey extends DataExtension
 {
