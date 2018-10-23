@@ -4,6 +4,8 @@ namespace gorriecoe\EditKey;
 
 use SilverStripe\View\Requirements;
 use SilverStripe\ORM\DataExtension;
+use SilverStripe\Security\Permission;
+use SilverStripe\CMS\Controllers\CMSPagesController;
 
 /**
  * EditKey
@@ -14,11 +16,13 @@ class EditKey extends DataExtension
 {
     public function contentcontrollerInit()
     {
-        Requirements::javascriptTemplate(
-            'gorriecoe/silverstripe-editkey: js/editkey.js',
-            [
-                'Link' => $this->owner->CMSEditLink()
-            ]
-        );
+        if (Permission::check(CMSPagesController::config()->get('required_permission_codes')) {
+            Requirements::javascriptTemplate(
+                'gorriecoe/silverstripe-editkey: js/editkey.js',
+                [
+                    'Link' => $this->owner->CMSEditLink()
+                ]
+            );
+        }
     }
 }
